@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ShufflingQueue</OriginalElement>
+  <nodes>
+    <node x="0.0" y="571.0">EquationSolver</node>
+    <node x="565.0" y="0.0">DSAStack</node>
+    <node x="295.0" y="571.0">DSAQueue_testHarness</node>
+    <node x="779.0" y="0.0">DSAQueue</node>
+    <node x="251.0" y="776.0">Eqsolver_test</node>
+    <node x="180.0" y="288.0">ShufflingQueue</node>
+    <node x="360.0" y="288.0">BasicQueue</node>
+    <node x="180.0" y="0.0">Queue</node>
+    <node x="0.0" y="277.0">CircularQueue</node>
+    <node x="0.0" y="776.0">towerOfHanoi</node>
+    <node x="623.0" y="571.0">DSAStack_testHarness</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CircularQueue" target="Queue">
+      <point x="0.0" y="-124.5" />
+      <point x="80.0" y="252.0" />
+      <point x="206.66666666666666" y="252.0" />
+      <point x="-53.33333333333334" y="113.5" />
+    </edge>
+    <edge source="ShufflingQueue" target="Queue">
+      <point x="0.0" y="-113.5" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="BasicQueue" target="Queue">
+      <point x="0.0" y="-113.5" />
+      <point x="440.0" y="252.0" />
+      <point x="313.33333333333337" y="252.0" />
+      <point x="53.33333333333337" y="113.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="186.9999999999999" y="410.0" />
+  <SelectedNodes>
+    <node>CircularQueue</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
