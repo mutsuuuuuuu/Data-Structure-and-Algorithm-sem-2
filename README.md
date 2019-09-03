@@ -1,2 +1,4 @@
 # DATA STRUCTURE AND ALGORITHM
-## Data Structure and Algorithm 
+
+All the practical for DATA STRUCTURE AND ALGORITHM are uploaded here after it was submitted to blackboard.
+There is readMe.txt inside each directory.
