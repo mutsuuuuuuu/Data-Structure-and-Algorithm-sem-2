@@ -1,2 +1,2 @@
-# Data-Structure-and-Algorithm-sem-2
-Data Structure and Algorithm 
+# DATA STRUCTURE AND ALGORITHM
+## Data Structure and Algorithm 
