@@ -5,7 +5,7 @@ All the practical for DATA STRUCTURE AND ALGORITHM are uploaded here after it wa
 There is readMe.txt inside each directory explaining whats need to be done and the flaws with the code. 
 
 ## Copyright
-© Mutsuuuuuuuuuuuuuuu 2014
+© Mutsuuuuuuuuuuuuuuu 2019
 
 Except as permitted by the copyright law applicable to you, you may not reproduce or communicate any of the content on this Github repository, including files downloadable from this repository, without the permission of the copyright owner.
 
