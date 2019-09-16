@@ -4,6 +4,13 @@
 All the practical for DATA STRUCTURE AND ALGORITHM are uploaded here after it was submitted to blackboard.
 There is readMe.txt inside each directory explaining whats need to be done and the flaws with the code. 
 
+## Language Used
+1. Java 
+2. Python 
+
+## About Make File
+Make file is used to make compiling easier.
+
 ## Copyright
 © Mutsuuuuuuuuuuuuuuu 2019
 
