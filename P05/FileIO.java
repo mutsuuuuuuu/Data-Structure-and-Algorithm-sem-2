@@ -25,7 +25,7 @@ public class FileIO
         DSAGraph graph = new DSAGraph();
         try
         {
-            filestrm = new FileInputStream("prac6_1.al");
+            filestrm = new FileInputStream("C:\\Users\\Dicky Gultom\\Documents\\DSA Sem 2\\src\\prac6_1.al");
             reader = new InputStreamReader(filestrm);
             bufferedReader = new BufferedReader(reader);
 
@@ -62,6 +62,9 @@ public class FileIO
         System.out.println("Get Edge Count: " +graph.getEdgeCount());
 
         graph.displayAsList();
+        graph.displayAsMatrix();
+        graph.depthFirstSearch();
+        graph.breadthFirstSearch();
         System.out.println();
     }
 
@@ -75,7 +78,7 @@ public class FileIO
         DSAGraph graph = new DSAGraph();
         try
         {
-            filestrm = new FileInputStream("prac6_2.al");
+            filestrm = new FileInputStream("C:\\Users\\Dicky Gultom\\Documents\\DSA Sem 2\\src\\prac6_2.al");
             reader = new InputStreamReader(filestrm);
             bufferedReader = new BufferedReader(reader);
 
@@ -112,7 +115,9 @@ public class FileIO
         System.out.println("Get Edge Count: " +graph.getEdgeCount());
 
         graph.displayAsList();
+        graph.displayAsMatrix();
         graph.depthFirstSearch();
+        graph.breadthFirstSearch();
         System.out.println();
 
     }
@@ -127,8 +132,8 @@ public class FileIO
             String toNode = splits[1];
 
             graph.addEdge(fromNode, toNode);
-        }
 
+        }
 
         return graph;
     }

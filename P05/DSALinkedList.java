@@ -18,30 +18,6 @@ public class DSALinkedList
         head=null;
         tail=null;
     }
-    public DSAListNode find(Object value)
-    {
-        DSAListNode val = findRec(head,value);
-
-        return val;
-    }
-
-    public DSAListNode findRec(DSAListNode nodes, Object value)
-    {
-        DSAListNode obj = null;
-        if (isEmpty())
-        {
-            obj = null;
-        }
-        else if (nodes.getValue() == value)
-        {
-            obj = nodes;
-        }
-        else
-        {
-            obj = findRec(nodes.getNext(),value);
-        }
-        return obj;
-    }
 
     public void insertFirst(Object newValue)
     {

@@ -78,5 +78,22 @@ public class DSAGraphNode
         System.out.println();
     }
 
+    public boolean hasVertex(DSAGraphNode comparator)
+    {
+        boolean exist = false;
+        Iterator<DSAGraphNode> iterator = links.iterator();
+        while (iterator.hasNext())
+        {
+            DSAGraphNode node = iterator.next();
+            if (node.getLabel() ==  comparator.getLabel())
+            {
+                exist = true;
+            }
+
+        }
+
+        return exist;
+    }
+
 
 }
